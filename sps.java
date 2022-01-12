@@ -87,7 +87,7 @@ public static  void f2(String s)
         System.out.println("Welcome to Rock, Paper, and Scissors!");
         
         do{
-            System.out.print("Please choose R-rock, P-paper or S-scissors.  ");
+            System.out.print("Please choose R-rock, P-paper or S-scissors. ");
             Scanner sc=new Scanner(System.in);
         userChoice = sc.nextLine();
     f2(userChoice);
